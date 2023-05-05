@@ -58,3 +58,7 @@ select {
     color: white;
     margin: auto;
 }
+
+.altoDiv{
+    border: 5px solid red;
+}

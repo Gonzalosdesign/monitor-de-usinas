@@ -41,7 +41,7 @@
     </nav>
 <!-- GALLERY -->
     <div class="row" id="gallery">
-      <!-- <div class="col-xs-12 col-sm-6 col-md-4">
+<!--  <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="monitor rounded-2">
           <h3>Unidad 1</h3>
           <ul>
@@ -51,38 +51,45 @@
             <li>Comentarios:</li>
           </ul>
         </div>
-      </div> -->
+      </div>
+-->
     </div>
 <!-- SCRIPT MAGICO -->
     <script>
       let arreglo = [
-          {id: 1, name: "Montevideo", temp: "18"},
-          {id: 2, name: "Canelones", temp: "14"},
-          {id: 3, name: "Colonia", temp: "19"},
-          {id: 4, name: "San José", temp: "15"},
-          {id: 5, name: "Flores", temp: "18"},
-          {id: 6, name: "Florida", temp: "15"},
-          {id: 7, name: "Soriano", temp: "17"},
-          {id: 8, name: "Rivera", temp: "21"},    
+          {id: 1, name: "Montevideo", temp: "18", volt: 5, comment: "Placa sucia"},
+          {id: 2, name: "Canelones", temp: "14", volt: 5, comment: "Requiere mantenimiento urgente"},
+          {id: 3, name: "Colonia", temp: "19", volt: 5, comment: ""},
+          {id: 4, name: "San José", temp: "15", volt: 5, comment: "Perifericos obsoletos"},
+          {id: 5, name: "Flores", temp: "18", volt: 5, comment: ""},
+          {id: 6, name: "Florida", temp: "15", volt: 5, comment: "Ducto averiado"},
+          {id: 7, name: "Soriano", temp: "17", volt: 5, comment: ""},
+          {id: 8, name: "Rivera", temp: "21", volt: 5, comment: ""},    
       ];
 
-      function mostrar () {
-          for (const el of arreglo){
-              //Crea un div con la clase responsive dentro del row gallery
-              let elemento = document.createElement("div");
-              document.getElementById("gallery").appendChild(elemento);
-              elemento.className = "col-xs-12 col-sm-6 col-md-4";
-              elemento.id = el.id;
-              //Crea un div clase monitor rounded dentro del div que corresponde a su id
-              let carta = document.createElement("div");
-              document.getElementById(elemento.id).appendChild(carta);
-              carta.className = "monitor rounded-2";
-              carta.innerText = `Usina: ${el.id}, Ubicación: ${el.name}, Temperatura: ${el.temp}`;
-              carta.id = elemento.id;
-          }
+      function cards(){
+        for (const item of arreglo){
+          let card = document.createElement("div");
+          card.className = "col-xs-12 col-sm-6 col-md-4";
+          card.innerHTML = `
+            <div>
+              <div class="monitor rounded-2">
+                <h3>Usina: ${item.id}</h3>
+                <ul>
+                  <li>Ubicación: ${item.name}</li>
+                  <li>Temperatura: ${item.temp}</li>
+                  <li>Voltaje: ${item.volt}</li>
+                  <li>Comentarios: ${item.comment}</li>
+                </ul>
+              </div>
+            </div>
+          `
+          gallery.appendChild(card);
+        }
       }
+      
+      cards();
 
-      mostrar();
     </script>
     <!-- Optional JavaScript; choose one of the two! -->
 
