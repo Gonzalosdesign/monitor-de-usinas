@@ -6,7 +6,7 @@ body {
 
 nav {
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(1, 103, 181) 100%); 
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(9,9,121,1) 35%, rgb(1, 103, 181) 100%); 
     color: white;
     margin: auto;
     padding: 1%;
@@ -46,7 +46,8 @@ select {
     width: 100%;
     color: white;
     opacity: 0.9;
-    background-color: rgb(23, 3, 248);
+    /* background-color: rgb(23, 3, 248); */
+    background-color: black;
     border: solid aqua 1px;
     padding: 15px;
 }
