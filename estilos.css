@@ -1,6 +1,6 @@
 body {
     background-color: rgb(0, 5, 20);
-    background-image: url("/img/wallpaper.jpg");
+    background-image: url("./img/wallpaper.jpg");
     font-family: 'Share Tech', sans-serif;
 }
 
