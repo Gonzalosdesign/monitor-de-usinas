@@ -63,3 +63,14 @@ select {
 .altoDiv{
     border: 5px solid red;
 }
+
+footer {
+    margin-top: 10%;
+    padding: 50px;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(9,9,121,1) 35%, rgb(1, 103, 181) 100%);
+    border-top: 3px solid;
+    border-image: linear-gradient(to right, #3acfd5 0%, rgba(0,0,0,1) 100%) 1;
+    color: #3acfd5;
+    font-size: larger;
+}
