@@ -1,16 +1,30 @@
 // NEXT
 
 /* 
-hace falta implementar manejo del select para filtrar los datos y solo traer los de la usina seleccionada
+hace falta implementar bin el FILTER para filtrar los datos y solo traer los de la usina seleccionada
  */
 
+let usinaSeleccionada = "";
+let selector = document.getElementById("usinas");
+    selector.addEventListener("change", () => {
+      usinaSeleccionada = document.getElementById("usinas").value;
+      console.log(usinaSeleccionada);
+    });
+    
 
 const traerDatos = async () => {
   try{
     const response = await fetch("./data.json");
     const arreglo = await response.json();
     console.log(arreglo);
+    console.log(`${arreglo[0].usina}`);
 // trabajar aqui
+    // let filtrados = arreglo.filter((item) => item.usina === usinaSeleccionada);
+    // console.log(filtrados);
+    // filtrados.forEach((filtrado) => {
+    //   console.log(filtrado.usina);
+    // })
+//
     arreglo.forEach(item => {
         if (item.motorStatus){
           item.img = "./img/motorON.png";
@@ -29,8 +43,8 @@ const traerDatos = async () => {
               <li>Voltaje: ${item.volt}</li>
               <li>Comentarios: ${item.comment}</li>
               <li><img src='${item.img}'></li>
-              <li><a href="#">Ver más</a></li>
             </ul>
+            <button class="btn btn-primary">Ver más</button>
           </div>
         </div>
       `

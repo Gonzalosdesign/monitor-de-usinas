@@ -1,6 +1,7 @@
 [
     {
       "id": 1,
+      "usina" : "Usina 1",
       "name": "Montevideo",
       "temp": "18",
       "volt": 5,
@@ -12,6 +13,7 @@
     },
     {
       "id": 2,
+      "usina" : "Usina 1",
       "name": "Canelones",
       "temp": "14",
       "volt": 5,
@@ -23,6 +25,7 @@
     },
     {
       "id": 3,
+      "usina" : "Usina 3",
       "name": "Colonia",
       "temp": "19",
       "volt": 5,
@@ -34,6 +37,7 @@
     },
     {
       "id": 4,
+      "usina" : "Usina 3",
       "name": "San José",
       "temp": "15",
       "volt": 5,
@@ -45,6 +49,7 @@
     },
     {
       "id": 5,
+      "usina" : "Usina 2",
       "name": "Flores",
       "temp": "18",
       "volt": 5,
@@ -56,6 +61,7 @@
     },
     {
       "id": 6,
+      "usina" : "Usina 4",
       "name": "Florida",
       "temp": "15",
       "volt": 5,
@@ -67,6 +73,7 @@
     },
     {
       "id": 7,
+      "usina" : "Usina 3",
       "name": "Soriano",
       "temp": "17",
       "volt": 5,
@@ -78,6 +85,7 @@
     },
     {
       "id": 8,
+      "usina" : "Usina 2",
       "name": "Rivera",
       "temp": "21",
       "volt": 5,
