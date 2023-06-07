@@ -1,16 +1,13 @@
 // NEXT
 
-/* 
-hace falta implementar bin el FILTER para filtrar los datos y solo traer los de la usina seleccionada
- */
 
 let usinaSeleccionada = "";
 let selector = document.getElementById("usinas");
-    selector.addEventListener("change", () => {
-      usinaSeleccionada = document.getElementById("usinas").value;
-      console.log(usinaSeleccionada);
-    });
-    
+selector.addEventListener("change", () => {
+  usinaSeleccionada = document.getElementById("usinas").value;
+  alert(usinaSeleccionada);
+});
+
 
 const traerDatos = async () => {
   try{
@@ -18,7 +15,11 @@ const traerDatos = async () => {
     const arreglo = await response.json();
     console.log(arreglo);
     console.log(`${arreglo[0].usina}`);
-// trabajar aqui
+    // trabajar aqui
+    /* 
+    hace falta implementar bin el FILTER para filtrar los datos y solo traer los de la usina seleccionada
+     */
+
     // let filtrados = arreglo.filter((item) => item.usina === usinaSeleccionada);
     // console.log(filtrados);
     // filtrados.forEach((filtrado) => {
