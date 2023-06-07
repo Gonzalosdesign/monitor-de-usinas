@@ -1,3 +1,10 @@
+// NEXT
+
+/* 
+hace falta implementar manejo del select para filtrar los datos y solo traer los de la usina seleccionada
+ */
+
+
 const traerDatos = async () => {
   try{
     const response = await fetch("./data.json");
