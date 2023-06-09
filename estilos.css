@@ -1,6 +1,12 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: rgb(0, 5, 20);
-    background-image: url("./img/wallpaper.jpg");
+    /* background-color: rgb(0, 5, 20); */
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(5,5,60,1) 35%, rgb(1, 50, 90) 100%); 
     font-family: 'Share Tech', sans-serif;
 }
 
@@ -15,12 +21,17 @@ nav {
 }
 
 .oseImg {
-    /* height: auto; */
     padding: 1%;
 }
 
 h1 {
     border-bottom: solid 2px white;
+}
+
+h1, h2, h3 {
+    font-weight: bolder;
+    color: white;
+    text-align: center;
 }
 
 select {
@@ -34,6 +45,7 @@ select {
 .subtitulo {
     text-align: center;
 }
+
 .row {
     width: 100%;
 }
@@ -44,31 +56,32 @@ select {
 
 .monitor {
     width: 100%;
-    color: white;
+    color: aqua;
     opacity: 0.9;
     /* background-color: rgb(23, 3, 248); */
     background-color: black;
     border: solid aqua 1px;
+    box-shadow: 0px 0px 18px black;
     padding: 15px;
 }
 
-.elemento {
-    width: 200px;
-    height: 100px;
-    border: 4px solid white;
-    color: white;
-    margin: auto;
+.monitor a {
+    color: red;
+    text-decoration: none;
 }
 
-.altoDiv{
-    border: 5px solid red;
+.starter {
+    min-height: 300px;
+    text-align: center;
+    padding: 5%;
 }
 
 footer {
+    width: 100%;
     margin-top: 10%;
     padding: 50px;
     text-align: center;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(9,9,121,1) 35%, rgb(1, 103, 181) 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(1, 50, 90)100%);
     border-top: 3px solid;
     border-image: linear-gradient(to right, #3acfd5 0%, rgba(0,0,0,1) 100%) 1;
     color: #3acfd5;
