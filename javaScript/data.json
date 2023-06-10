@@ -1,5 +1,17 @@
 [
     {
+      "id": 0,
+      "usina" : "test",
+      "name": "test",
+      "temp": "0",
+      "volt": 0,
+      "comment": "objeto de pruebas",
+      "motorStatus": true,
+      "presion": 0,
+      "marca": "0",
+      "modelo": "0"
+    },
+    {
       "id": 1,
       "usina" : "Usina 1",
       "name": "Montevideo",
@@ -173,7 +185,7 @@
       "name": "Soriano",
       "temp": "17",
       "volt": 5,
-      "comment": "",
+      "comment": "algo obsoleta",
       "motorStatus": true,
       "presion": 50,
       "marca": "3",
