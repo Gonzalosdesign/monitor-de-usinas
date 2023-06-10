@@ -8,7 +8,7 @@
       
         //filtra los objetos del json según el valor del select
         usinaSeleccionada = document.getElementById("usinaSelector").value;
-        console.log(`Usina seleccionada: ${usinaSeleccionada}`);
+        // console.log(`Usina seleccionada: ${usinaSeleccionada}`);
         let encontrado = arreglo.filter((item) => item.usina == usinaSeleccionada);
       
         //imprime una card por cada objeto del arreglo filtrado
