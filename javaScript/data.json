@@ -7,6 +7,7 @@
       "volt": 0,
       "comment": "objeto de pruebas",
       "motorStatus": true,
+      "nivel": 0,
       "presion": 0,
       "marca": "0",
       "modelo": "0"
@@ -19,6 +20,7 @@
       "volt": 5,
       "comment": "Placa sucia",
       "motorStatus": true,
+      "nivel": 10,
       "presion": 50,
       "marca": "1",
       "modelo": "B"
@@ -30,7 +32,8 @@
       "temp": "14",
       "volt": 5,
       "comment": "Requiere mantenimiento urgente",
-      "motorStatus": false,
+      "motorStatus": true,
+      "nivel": 20,
       "presion": 50,
       "marca": "2",
       "modelo": "A"
@@ -42,7 +45,8 @@
       "temp": "19",
       "volt": 5,
       "comment": "",
-      "motorStatus": true,
+      "motorStatus": false,
+      "nivel": 30,
       "presion": 50,
       "marca": "1",
       "modelo": "A"
@@ -55,6 +59,7 @@
       "volt": 5,
       "comment": "Perifericos obsoletos",
       "motorStatus": true,
+      "nivel": 20,
       "presion": 50,
       "marca": "2",
       "modelo": "A"
@@ -67,6 +72,7 @@
       "volt": 5,
       "comment": "",
       "motorStatus": true,
+      "nivel": 30,
       "presion": 50,
       "marca": "2",
       "modelo": "C"
@@ -79,6 +85,7 @@
       "volt": 5,
       "comment": "Ducto averiado",
       "motorStatus": true,
+      "nivel": 40,
       "presion": 50,
       "marca": "1",
       "modelo": "A"
@@ -91,6 +98,7 @@
       "volt": 5,
       "comment": "",
       "motorStatus": true,
+      "nivel": 50,
       "presion": 50,
       "marca": "3",
       "modelo": "B"
@@ -103,6 +111,7 @@
       "volt": 5,
       "comment": "",
       "motorStatus": true,
+      "nivel": 40,
       "presion": 50,
       "marca": "3",
       "modelo": "A"
@@ -114,7 +123,8 @@
       "temp": "18",
       "volt": 5,
       "comment": "Placa sucia",
-      "motorStatus": true,
+      "motorStatus": false,
+      "nivel": 20,
       "presion": 50,
       "marca": "1",
       "modelo": "B"
@@ -127,6 +137,7 @@
       "volt": 5,
       "comment": "Requiere mantenimiento urgente",
       "motorStatus": true,
+      "nivel": 10,
       "presion": 50,
       "marca": "2",
       "modelo": "A"
@@ -139,6 +150,7 @@
       "volt": 5,
       "comment": "",
       "motorStatus": true,
+      "nivel": 10,
       "presion": 50,
       "marca": "1",
       "modelo": "A"
@@ -150,7 +162,8 @@
       "temp": "15",
       "volt": 5,
       "comment": "Perifericos obsoletos",
-      "motorStatus": false,
+      "motorStatus": true,
+      "nivel": 60,
       "presion": 50,
       "marca": "2",
       "modelo": "A"
@@ -163,6 +176,7 @@
       "volt": 5,
       "comment": "",
       "motorStatus": false,
+      "nivel": 50,
       "presion": 50,
       "marca": "2",
       "modelo": "C"
@@ -174,7 +188,8 @@
       "temp": "15",
       "volt": 5,
       "comment": "Ducto averiado",
-      "motorStatus": false,
+      "motorStatus": true,
+      "nivel": 50,
       "presion": 50,
       "marca": "1",
       "modelo": "A"
@@ -187,6 +202,7 @@
       "volt": 5,
       "comment": "algo obsoleta",
       "motorStatus": true,
+      "nivel": 40,
       "presion": 50,
       "marca": "3",
       "modelo": "B"
@@ -198,7 +214,8 @@
       "temp": "21",
       "volt": 5,
       "comment": "",
-      "motorStatus": false,
+      "motorStatus": true,
+      "nivel": 50,
       "presion": 50,
       "marca": "3",
       "modelo": "A"
@@ -211,6 +228,7 @@
       "volt": 5,
       "comment": "",
       "motorStatus": true,
+      "nivel": 60,
       "presion": 50,
       "marca": "1",
       "modelo": "A"
@@ -222,7 +240,8 @@
       "temp": "15",
       "volt": 5,
       "comment": "Perifericos obsoletos",
-      "motorStatus": false,
+      "motorStatus": true,
+      "nivel": 70,
       "presion": 50,
       "marca": "2",
       "modelo": "A"
@@ -234,7 +253,8 @@
       "temp": "18",
       "volt": 5,
       "comment": "",
-      "motorStatus": false,
+      "motorStatus": true,
+      "nivel": 80,
       "presion": 50,
       "marca": "2",
       "modelo": "C"
@@ -246,7 +266,8 @@
       "temp": "15",
       "volt": 5,
       "comment": "Ducto averiado",
-      "motorStatus": false,
+      "motorStatus": true,
+      "nivel": 70,
       "presion": 50,
       "marca": "1",
       "modelo": "A"
@@ -259,6 +280,7 @@
       "volt": 5,
       "comment": "algo obsoleta",
       "motorStatus": true,
+      "nivel": 40,
       "presion": 50,
       "marca": "3",
       "modelo": "B"
@@ -270,7 +292,8 @@
       "temp": "21",
       "volt": 5,
       "comment": "",
-      "motorStatus": false,
+      "motorStatus": true,
+      "nivel": 10,
       "presion": 50,
       "marca": "3",
       "modelo": "A"
@@ -283,6 +306,7 @@
       "volt": 5,
       "comment": "",
       "motorStatus": true,
+      "nivel": 70,
       "presion": 50,
       "marca": "1",
       "modelo": "A"
@@ -295,6 +319,7 @@
       "volt": 5,
       "comment": "Perifericos obsoletos",
       "motorStatus": false,
+      "nivel": 50,
       "presion": 50,
       "marca": "2",
       "modelo": "A"
@@ -306,7 +331,8 @@
       "temp": "18",
       "volt": 5,
       "comment": "",
-      "motorStatus": false,
+      "motorStatus": true,
+      "nivel": 90,
       "presion": 50,
       "marca": "2",
       "modelo": "C"
@@ -318,7 +344,8 @@
       "temp": "15",
       "volt": 5,
       "comment": "Ducto averiado",
-      "motorStatus": false,
+      "motorStatus": true,
+      "nivel": 80,
       "presion": 50,
       "marca": "1",
       "modelo": "A"
@@ -331,6 +358,7 @@
       "volt": 5,
       "comment": "algo obsoleta",
       "motorStatus": true,
+      "nivel": 60,
       "presion": 50,
       "marca": "3",
       "modelo": "B"
@@ -343,6 +371,7 @@
       "volt": 5,
       "comment": "",
       "motorStatus": false,
+      "nivel": 30,
       "presion": 50,
       "marca": "3",
       "modelo": "A"
@@ -354,7 +383,8 @@
       "temp": "15",
       "volt": 5,
       "comment": "Perifericos obsoletos",
-      "motorStatus": false,
+      "motorStatus": true,
+      "nivel": 50,
       "presion": 50,
       "marca": "2",
       "modelo": "A"
@@ -366,7 +396,8 @@
       "temp": "18",
       "volt": 5,
       "comment": "",
-      "motorStatus": false,
+      "motorStatus": true,
+      "nivel": 40,
       "presion": 50,
       "marca": "2",
       "modelo": "C"
@@ -378,7 +409,8 @@
       "temp": "15",
       "volt": 5,
       "comment": "Ducto averiado",
-      "motorStatus": false,
+      "motorStatus": true,
+      "nivel": 50,
       "presion": 50,
       "marca": "1",
       "modelo": "A"
@@ -391,6 +423,7 @@
       "volt": 5,
       "comment": "algo obsoleta",
       "motorStatus": true,
+      "nivel": 80,
       "presion": 50,
       "marca": "3",
       "modelo": "B"
@@ -402,7 +435,8 @@
       "temp": "21",
       "volt": 5,
       "comment": "",
-      "motorStatus": false,
+      "motorStatus": true,
+      "nivel": 70,
       "presion": 50,
       "marca": "3",
       "modelo": "A"
@@ -415,6 +449,7 @@
       "volt": 5,
       "comment": "",
       "motorStatus": true,
+      "nivel": 30,
       "presion": 50,
       "marca": "1",
       "modelo": "A"
@@ -426,7 +461,8 @@
       "temp": "15",
       "volt": 5,
       "comment": "Perifericos obsoletos",
-      "motorStatus": false,
+      "motorStatus": true,
+      "nivel": 40,
       "presion": 50,
       "marca": "2",
       "modelo": "A"
@@ -439,6 +475,7 @@
       "volt": 5,
       "comment": "",
       "motorStatus": false,
+      "nivel": 60,
       "presion": 50,
       "marca": "2",
       "modelo": "C"
@@ -450,7 +487,8 @@
       "temp": "15",
       "volt": 5,
       "comment": "Ducto averiado",
-      "motorStatus": false,
+      "motorStatus": true,
+      "nivel": 30,
       "presion": 50,
       "marca": "1",
       "modelo": "A"
@@ -463,6 +501,7 @@
       "volt": 5,
       "comment": "algo obsoleta",
       "motorStatus": true,
+      "nivel": 20,
       "presion": 50,
       "marca": "3",
       "modelo": "B"
@@ -474,7 +513,8 @@
       "temp": "21",
       "volt": 5,
       "comment": "",
-      "motorStatus": false,
+      "motorStatus": true,
+      "nivel": 20,
       "presion": 50,
       "marca": "3",
       "modelo": "A"
@@ -487,6 +527,7 @@
       "volt": 5,
       "comment": "algo obsoleta",
       "motorStatus": true,
+      "nivel": 10,
       "presion": 50,
       "marca": "3",
       "modelo": "B"
@@ -499,6 +540,7 @@
       "volt": 5,
       "comment": "",
       "motorStatus": false,
+      "nivel": 40,
       "presion": 50,
       "marca": "3",
       "modelo": "A"
@@ -510,6 +552,7 @@
       "volt": 5,
       "comment": "algo obsoleta",
       "motorStatus": true,
+      "nivel": 30,
       "presion": 50,
       "marca": "3",
       "modelo": "B"
@@ -521,7 +564,8 @@
       "temp": "21",
       "volt": 5,
       "comment": "",
-      "motorStatus": false,
+      "motorStatus": true,
+      "nivel": 100,
       "presion": 50,
       "marca": "3",
       "modelo": "A"

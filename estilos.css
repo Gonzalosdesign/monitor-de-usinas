@@ -48,6 +48,11 @@ select {
     text-align: center;
 }
 
+hr.nivel {
+    border: 10px solid cyan;
+    border-radius: 5px;
+  }
+
 .row {
     width: 100%;
 }

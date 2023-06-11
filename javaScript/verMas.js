@@ -10,7 +10,9 @@ function verMenos (id){
         <div>
           <div class="monitor rounded-2">
             <h3>Terminal: ${id}</h3>
-            <img src='${img}'>
+            <img src="${img}">
+            <p>Nivel del tanque:</p>
+            <hr class="nivel" id="${arreglo[id].nivel}" width="${arreglo[id].nivel}%">
             <button class="btn btn-primary" id="boton${id}">Ver más</button>
           </div>
         </div>
@@ -38,8 +40,10 @@ function verMas(id){
                 <li>Temperatura: ${arreglo[id].temp}</li>
                 <li>Voltaje: ${arreglo[id].volt}</li>
                 <li>Comentarios: ${arreglo[id].comment}</li>
+                <li>Nivel de tanque: ${arreglo[id].nivel}</li>
               </ul>
-              <img src='${img}'>
+              <img src="${img}">
+              <hr class="nivel" id="${arreglo[id].nivel}" width="${arreglo[id].nivel}%">
               <button class="btn btn-primary" id="boton${id}">Ver menos</button>
             </div>
           </div>
