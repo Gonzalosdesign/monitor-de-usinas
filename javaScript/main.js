@@ -7,8 +7,20 @@ const traerDatos = async () => {
   try{
     const response = await fetch("./javaScript/data.json");
     arreglo = await response.json();
+    Swal.fire({
+      position: 'top-end',
+      icon: 'success',
+      title: 'Data properly fetched!',
+      showConfirmButton: false,
+      timer: 1500
+    })
   }catch (error){
-    alert("Data fetch not working properly");
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'Data fetch not working properly',
+      footer: '<a href="mailto: webmaster@monitordeusinas.com">contact webmaster</a>'
+    })
   }
 }
 
