@@ -1,4 +1,4 @@
-
+function eventos(){
 //escucha el evento del select
     let selector = document.getElementById("usinaSelector");
     selector.addEventListener("click", () => {
@@ -43,3 +43,4 @@
       });
     });
 
+  }
