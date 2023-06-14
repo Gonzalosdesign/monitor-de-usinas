@@ -16,7 +16,6 @@ function alertaUsuarioIncorrecto(){
 function entrar() {
     let userName = localStorage.getItem("userName");
     let userPin = localStorage.getItem("userPin");
-    
     userName == adminName && userPin == adminPin ?
     traerDatos() :
     alertaUsuarioIncorrecto();
@@ -28,7 +27,7 @@ function escucharForm(){
         e.preventDefault();
         let inputs = e.target.children;
         let userName = inputs[0].value;
-        let userPin = inputs[1].value;
+        let userPin = parseInt(inputs[1].value);
         localStorage.setItem("userName", userName);
         localStorage.setItem("userPin", userPin);
         entrar();
