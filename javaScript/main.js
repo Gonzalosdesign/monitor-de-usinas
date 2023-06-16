@@ -33,3 +33,9 @@ const traerDatos = async () => {
     })
   }
 }
+
+let titulo = document.getElementById("titulo");
+titulo.addEventListener("click", ()=>{
+  location.reload();
+  sesion();
+})

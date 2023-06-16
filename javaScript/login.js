@@ -1,12 +1,14 @@
+// Estas lineas son para facilitar trabajar con el codigo
 // localStorage.clear();
+// localStorage.setItem("usuariosStorage", JSON.stringify(adminUser));
+
 let adminUser = { id: 1, nombre: "admin", pin: 666 };
-let usuariosStorage = JSON.parse(localStorage.getItem("usuarios"));
+let usuariosStorage = JSON.parse(localStorage.getItem("usuariosStorage"));
 let usuarios = [];
 
-//Si las validaciones son correctas emite un mensaj de bienvenida y lama al fetch
-function ingresar(usuario){
-    usuarios.push(usuario);
-    localStorage.setItem("usuariosStorage", JSON.stringify(usuarios));
+//Si las validaciones son correctas emite un mensaje de bienvenida y llama al fetch
+function binvenido(){
+
     //alerta de exito
     Swal.fire({
         position: 'top-start',
@@ -30,8 +32,13 @@ function alertaUsuarioIncorrecto(){
         footer: '<a href="mailto: webmaster@monitordeusinas.com">contact webmaster</a>'
       })
 }
+function agregar(usuario){
+        usuarios.push(usuario);
+        localStorage.setItem("usuariosStorage", JSON.stringify(usuarios));
+        binvenido();
+}
 //-------------------------------------------------------------
-let signUp = (nombre, pin) => {
+const crear = (nombre, pin) => {
         //crea un objeto con los datos del form
         let usuario = {
             id: 1,
@@ -40,20 +47,20 @@ let signUp = (nombre, pin) => {
         };
         //validación de admin
         usuario.nombre == adminUser.nombre && usuario.pin == adminUser.pin ?
-        ingresar(usuario) :
+        agregar(usuario):
         alertaUsuarioIncorrecto();
 };
 
 //-------------------------------------------------------------
-//Escucha el vento y pasa los parametros ala función de signUp
-function login(){
+//Escucha el vento y pasa los parametros ala función de crear
+function escucharForm(){
     let form = document.getElementById("form");
     
     form.addEventListener("submit", (e) => {
         e.preventDefault();
     
         let inputs = e.target.children;
-        signUp(inputs[0].value, inputs[1].value);
+        crear(inputs[0].value, inputs[1].value);
 
     });}
 
@@ -62,7 +69,7 @@ function login(){
 //Si ya está almacenado avanza hacia el fetch
 function sesion(){
     usuariosStorage == null ?
-    login():
-    ingresar();
+    escucharForm():
+    binvenido();
 }
 sesion();
