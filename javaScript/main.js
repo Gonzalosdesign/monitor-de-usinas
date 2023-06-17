@@ -1,6 +1,5 @@
 //Declara variables globales
 let usinaSeleccionada = "";
-// let arreglo = [];
 
 //Consume los objetos desde un json externo
 const traerDatos = async () => {
