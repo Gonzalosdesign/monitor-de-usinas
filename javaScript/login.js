@@ -1,6 +1,7 @@
-// Estas lineas son para facilitar trabajar con el codigo
+// Estas lineas son para facilitar trabajar con el codigo-------------
 // localStorage.clear();
 // localStorage.setItem("usuariosStorage", JSON.stringify(adminUser));
+//--------------------------------------------------------------------
 
 let adminUser = { id: 1, nombre: "admin", pin: 666 };
 let usuariosStorage = JSON.parse(localStorage.getItem("usuariosStorage"));
@@ -9,11 +10,12 @@ let usuarios = [];
 //Si las validaciones son correctas emite un mensaje de bienvenida y llama al fetch
 function binvenido(){
 
+
     //alerta de exito
     Swal.fire({
         position: 'top-start',
         icon: 'success',
-        title: `Bienvenid@!`,
+        title: `Bienvenid@! ${adminUser.nombre}`,
         showConfirmButton: true,
         timer: 2000
         });

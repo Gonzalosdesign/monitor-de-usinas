@@ -36,6 +36,10 @@ h1, h2, h3 {
     text-align: center;
 }
 
+a:hover{
+    color: aqua;
+}
+
 select {
     width: 100%;
     color: cyan;
@@ -52,6 +56,15 @@ hr.nivel {
     border: 10px solid cyan;
     border-radius: 5px;
   }
+
+.btn-primary {
+    background-color: darkblue;
+}
+
+.btn-primary:hover{
+    background-color: aqua;
+    color: darkblue;
+}
 
 .row {
     width: 100%;
