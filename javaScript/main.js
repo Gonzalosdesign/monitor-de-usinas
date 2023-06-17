@@ -18,7 +18,7 @@ const traerDatos = async () => {
     let info = document.getElementById("info");
     info.innerHTML = `
       <h3>Seleccione una Usina</h3>
-      <p>Utilice el selector para selecionar una Usina y ver las terminales asociadas</p>
+      <p>Utilice el selector (arriba a la derecha) para selecionar una Usina y ver las terminales asociadas</p>
     `
     //llama a la funciçon que escucha los eventos
     eventos();

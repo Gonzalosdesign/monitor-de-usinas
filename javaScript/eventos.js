@@ -1,7 +1,7 @@
 function eventos(){
 //escucha el evento del select
     let selector = document.getElementById("usinaSelector");
-    selector.addEventListener("click", () => {
+    selector.addEventListener("change", () => {
       
         //Limpia el área de impresión
         let gallery = document.getElementById("gallery");
